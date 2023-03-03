@@ -63,8 +63,12 @@ li {
     letter-spacing: 0.02em;
 }
 
-.nav-list-item:hover {
+.nav-list-item:is(:hover, :focus) {
     color: var(--color-ocean);
+}
+
+.address {
+    font-style: normal;
 }
 
 .address-list-item {
@@ -74,7 +78,7 @@ li {
     color: var(--color-slate);
 }
 
-.address-list-item:hover {
+.address-list-item:is(:hover, :focus) {
     color: var(--color-ocean);
 }
 
@@ -107,7 +111,7 @@ li {
     height: 56px;
 }
 
-.hero-btn:hover {
+.hero-btn:is(:hover, :focus) {
     background-color: var(--color-ocean);
 }
 
@@ -132,6 +136,7 @@ li {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--color-navy-blue);
 }
 
 /* ?----------------------TEAM---------------------- */
@@ -142,6 +147,7 @@ li {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--color-navy-blue);
 }
 
 .team-title-list-item-name {
@@ -150,10 +156,11 @@ li {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
 }
 
 .team-title-list-item-role {
-    line-height: 1.5px;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-slate);
@@ -170,11 +177,11 @@ li {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: var(--color-cloud);
+    color: var(--color-iris);
 }
 
 .footer-text {
@@ -199,7 +206,7 @@ li {
     letter-spacing: 0.04em;
 }
 
-.portfolio-btn-list-item:hover {
+.portfolio-btn-list-item:is(:hover, :focus) {
     background: var(--color-ocean);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
