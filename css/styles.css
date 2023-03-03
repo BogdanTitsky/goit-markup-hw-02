@@ -141,6 +141,10 @@ li {
 
 /* ?----------------------TEAM---------------------- */
 
+.team {
+    background-color: var(--color-cloud);
+}
+
 .team-title {
     font-size: 36px;
     line-height: 1.11;
