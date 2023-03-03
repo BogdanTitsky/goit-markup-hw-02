@@ -219,12 +219,13 @@ li {
 
 .portfolio-list-item-title {
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
 
 .portfolio-list-item-subtitle {
     color: var(--color-slate);
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
