@@ -48,8 +48,12 @@ li {
     text-decoration: none;
 }
 
-.logo-prefix {
-    color: var(--color-iris);
+.logo-sufix {
+    color: var(--color-navy-blue);
+}
+
+.list {
+    list-style: none;
 }
 
 .nav-list-item {
