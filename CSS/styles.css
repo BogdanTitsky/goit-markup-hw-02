@@ -190,6 +190,10 @@ li {
     color: var(--color-cornflower);
 }
 
+.logo-sufix-footer {
+    color: var(--color-cloud);
+}
+
 /* ?----------------------PORTFOLIO---------------------- */
 
 .portfolio-btn-list-item {
