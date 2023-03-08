@@ -32,7 +32,35 @@ li {
     cursor: pointer;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+}
+
 /* ?----------------------HEADER---------------------- */
+
+.header {
+    border-bottom: var(--color-cornflower) solid 1px;
+}
+
+.header-container {
+    padding: 24px 0;
+}
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
@@ -84,6 +112,10 @@ li {
 
 /* ?----------------------HERO---------------------- */
 
+.hero-container {
+    padding: 188px 0;
+}
+
 .hero {
     background-color: var(--color-navy-blue);
 }
@@ -94,6 +126,8 @@ li {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+
+    margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -117,6 +151,10 @@ li {
 
 /* ?----------------------STRATEGY---------------------- */
 
+.strategy-container {
+    padding: 120px 0;
+}
+
 .strategy-title {
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -126,9 +164,20 @@ li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
+    width: 264px;
+}
+
+.strategy-list-item-title {
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: var(--color-navy-blue);
 }
 
 /* ?----------------------WORK---------------------- */
+
+.work-container {
+    padding-bottom: 120px;
+}
 
 .work-title {
     font-size: 36px;
@@ -145,6 +194,10 @@ li {
     background-color: var(--color-cloud);
 }
 
+.team-container {
+    padding: 120px 0;
+}
+
 .team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -152,6 +205,10 @@ li {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-navy-blue);
+}
+
+.team-title-list-item {
+    background-color: white;
 }
 
 .team-title-list-item-name {
@@ -176,6 +233,10 @@ li {
     background-color: var(--color-navy-blue);
 }
 
+.footer-container {
+    padding: 100px 0;
+}
+
 .logo-footer {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -189,9 +250,11 @@ li {
 }
 
 .footer-text {
+    margin-top: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-cornflower);
+    width: 264px;
 }
 
 .logo-sufix-footer {
@@ -199,6 +262,14 @@ li {
 }
 
 /* ?----------------------PORTFOLIO---------------------- */
+
+.portfolio-container {
+    padding: 96px 0 120px;
+}
+
+.btn-list {
+    margin-bottom: 72px;
+}
 
 .portfolio-btn-list-item {
     padding: 12px 24px 12px 24px;
